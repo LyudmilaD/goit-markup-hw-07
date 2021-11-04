@@ -1,0 +1,39 @@
+.footer {
+    background-color: $second-bg-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer__blok {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  .footer__contact {
+    margin-right: 70px;
+  }
+  
+  .footer__list {
+    margin-right: auto;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .footer__item {
+    margin-bottom: 9px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  .footer__link {
+    color: $footer-contact-color;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  
+  .footer__link--color {
+    color: $white-text-color;
+  }
