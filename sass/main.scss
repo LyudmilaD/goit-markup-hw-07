@@ -19,11 +19,10 @@
 @import './components/features';
 
 // Task section
-@import './components/task';
+@import './components/tasks';
 
 // Team section
 @import './components/team';
-@import './components/team-soclink';
 
 // Cliens section
 @import './components/clients';
@@ -35,8 +34,8 @@
 
 // PORTFOLIO
 @import './components/menu';
-@import './components/portf-items';
-@import './components/portfolio-overlay';
+@import './components/portfolio';
+
 
 // FORM
 @import './components/modal';
