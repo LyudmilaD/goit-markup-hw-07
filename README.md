@@ -1,6 +1,6 @@
-# goit-markup-hw-06
+# goit-markup-hw-07
 
-## Homework 06
+## Homework 07
 
 Github pages
-- https://lyudmilad.github.io/goit-markup-hw-06/
+- https://lyudmilad.github.io/goit-markup-hw-07/
