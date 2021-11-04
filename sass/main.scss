@@ -1,14 +1,44 @@
-body {
-    background-color: blue;
+@import './utils/normalize';
+@import './utils/variables';
+@import './utils/visual-hiden';
+@import './utils/global-settings';
 
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-  }
-  h1,
-h2,
-h3,
-p,
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+// HEADER
+
+@import './components/container';
+@import './components/header-container';
+@import './components/nav';
+@import './components/logo';
+@import './components/contacts';
+
+// hero section
+@import './components/hero';
+@import './components/button';
+
+// features section
+@import './components/features';
+
+// Task section
+@import './components/task';
+
+// Team section
+@import './components/team';
+@import './components/team-soclink';
+
+// Cliens section
+@import './components/clients';
+
+// footer section
+@import './components/footer';
+@import './components/footer-soclink';
+@import './components/footer-signup-form';
+
+// PORTFOLIO
+@import './components/menu';
+@import './components/portf-items';
+@import './components/portfolio-overlay';
+
+// FORM
+@import './components/modal';
+@import './components/form';
+@import './components/form-checkbox';
