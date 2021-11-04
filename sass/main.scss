@@ -1,7 +1,14 @@
-
-.body {
-    font-family: var(--main-font);
-    font-weight: 500;
-    color: var(--primary-background-color);
-    background-color: var(--accent-color);
+body {
+    background-color: #ffffff;
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
   }
+  h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
