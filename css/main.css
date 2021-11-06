@@ -1233,6 +1233,7 @@ img {
 }
 
 .checkbox__item {
+  border-radius: 2px;
   background-color: #2196f3;
   background-image: url("../images/icons.svg/icomoon-10/SVG/icon-check.svg");
   background-size: contain;
@@ -1242,7 +1243,7 @@ img {
   fill: #2196f3;
 }
 
-.checkbox:checked:checkbox__item {
+.checkbox:checked {
   border-radius: 2px;
   fill: #2196f3;
   background-color: #2196f3;
