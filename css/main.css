@@ -1233,7 +1233,9 @@ img {
 }
 
 .checkbox__item {
-  position: absolute;
+  background-color: #2196f3;
+  background-image: url("../images/icons.svg/icomoon-10/SVG/icon-check.svg");
+  background-size: contain;
 }
 
 .checkbox__item:focus, .checkbox__item:hover {
