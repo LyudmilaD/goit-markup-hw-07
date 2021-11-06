@@ -1232,6 +1232,14 @@ img {
   fill: #2196f3;
 }
 
+.checkbox__item {
+  position: absolute;
+}
+
+.checkbox__item:focus, .checkbox__item:hover {
+  fill: #2196f3;
+}
+
 .checkbox:checked:checkbox__item {
   border-radius: 2px;
   fill: #2196f3;
