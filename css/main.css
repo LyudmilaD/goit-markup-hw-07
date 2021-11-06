@@ -1241,6 +1241,9 @@ img {
 
 .checkbox__item:focus, .checkbox__item:hover {
   fill: #2196f3;
+  background-color: #2196f3;
+  background-image: url("../images/icons.svg/icomoon-10/SVG/icon-check.svg");
+  background-size: contain;
 }
 
 .checkbox:checked {
