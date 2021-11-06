@@ -33,10 +33,10 @@
     }
   }
   .checkbox__item {
-    border-radius: 2px;
+    /*border-radius: 2px;
     background-color: $accent-color;
     background-image: url('../images/icons.svg/icomoon-10/SVG/icon-check.svg');
-    background-size: contain;
+    background-size: contain;*/
     &:focus,
     &:hover {
       fill: $accent-color;
@@ -55,7 +55,7 @@
     background-size: contain;
     
   }
-  
+
   .checkbox__item {
     margin-right: 7px;
     width: 16px;
