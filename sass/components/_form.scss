@@ -59,11 +59,18 @@
   
     fill: $first-logo-color;
   }
-  
-  .form__input:focus + .form__icon,
-  .form__input:hover + .form__icon {
+  .form__icon {
+    &:focus,
+    &:hover {
     color: $accent-color;
+    } 
+  }
+  
+  .form__icon {
+    &:focus,
+    &:hover {
     fill: currentColor;
+    }
   }
   
   

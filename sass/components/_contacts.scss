@@ -22,6 +22,8 @@
   margin-left: auto;
 }
 
-.contact__item:not(:last-child) {
-  margin-right: 50px;
+.contact__item {
+  &:nth-child {
+    margin-right: 50px;
+  }
 }
