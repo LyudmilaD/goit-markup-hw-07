@@ -295,8 +295,8 @@ img {
 .logo {
   margin-right: 90px;
   display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /*padding-top: 24px;
+    padding-bottom: 25px;*/
   color: #2196f3;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -356,7 +356,7 @@ img {
   margin-left: auto;
 }
 
-.contact__item:not(:last-child) {
+.contact__item:nth-child {
   margin-right: 50px;
 }
 
@@ -422,7 +422,7 @@ img {
 }
 
 .button:hover, .button:focus {
-  color: #212121;
+  color: #ffffff;
   background-color: #188ce8;
 }
 
@@ -1169,8 +1169,7 @@ img {
   fill: #000000;
 }
 
-.form__input:focus + .form__icon,
-.form__input:hover + .form__icon {
+.form__icon:focus, .form__icon:hover {
   color: #2196f3;
   fill: currentColor;
 }
@@ -1229,16 +1228,20 @@ img {
   position: absolute;
 }
 
-.checkbox:focus + .checkbox__item,
-.checkbox:hover + .checkbox__item {
+.checkbox:focus, .checkbox:hover {
   fill: #2196f3;
 }
 
-.checkbox:checked + .checkbox__item {
+.checkbox__item {
+  position: absolute;
+  fill: #2196f3;
+}
+
+.checkbox:checked:checkbox__item {
   border-radius: 2px;
   fill: #2196f3;
   background-color: #2196f3;
-  background-image: url(../images/check.svg);
+  background-image: url("../images/icons.svg/icomoon-10/SVG/icon-check.svg");
   background-size: contain;
 }
 
