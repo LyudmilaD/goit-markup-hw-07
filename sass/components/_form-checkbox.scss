@@ -40,6 +40,9 @@
     &:focus,
     &:hover {
       fill: $accent-color;
+      background-color: $accent-color;
+      background-image: url('../images/icons.svg/icomoon-10/SVG/icon-check.svg');
+      background-size: contain;
     }
   }
 
