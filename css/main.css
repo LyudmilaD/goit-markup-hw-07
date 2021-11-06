@@ -1232,10 +1232,6 @@ img {
   fill: #2196f3;
 }
 
-.checkbox__item {
-  fill: #2196f3;
-}
-
 .checkbox:checked:checkbox__item {
   border-radius: 2px;
   fill: #2196f3;
