@@ -33,8 +33,9 @@
     }
   }
   .checkbox__item {
-    position: absolute;
-  
+    background-color: $accent-color;
+    background-image: url('../images/icons.svg/icomoon-10/SVG/icon-check.svg');
+    background-size: contain;
     &:focus,
     &:hover {
       fill: $accent-color;
