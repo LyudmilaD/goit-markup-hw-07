@@ -32,6 +32,14 @@
       fill: $accent-color;
     }
   }
+  .checkbox__item {
+    position: absolute;
+  
+    &:focus,
+    &:hover {
+      fill: $accent-color;
+    }
+  }
 
 
   .checkbox:checked {
